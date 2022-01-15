@@ -6,7 +6,7 @@
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
 # Knit the HTML version
-rmarkdown::render("cv.rmd",
+rmarkdown::render("siraji_cv.rmd",
                   params = list(pdf_mode = FALSE),
                   output_file = "docs/index.html")
 
