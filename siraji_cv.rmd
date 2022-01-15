@@ -1,0 +1,200 @@
+---
+title: "Mushfiqul Anwar Siraji's CV"
+author: Mushfiqul Anwar Siraji
+date: "`r Sys.Date()`"
+address: "Monash University Malaysia"
+phone: 0173410394
+email: mushfiqul.anwarsiraji@monash.edu
+params:
+  pdf_mode:
+    value: true
+output:
+  pagedown::html_resume:
+    css: ['dd_cv.css', 'resume']
+    self_contained: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(magrittr) # For the pipe
+source("cv_printing_functions.r")
+
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+  data_location = "data/",  
+  pdf_mode = params$pdf_mode
+)
+
+```
+
+
+```{r}
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+    cat("
+<style>
+:root{
+  --decorator-outer-offset-left: -6.5px;
+}
+</style>")
+}
+```
+
+
+Aside
+================================================================================
+
+<!-- Swap image with your preferred logo -->
+<!--![logo](Photo.jpeg){width=25%} -->
+
+
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online with links at https://github.com/masiraji/CV")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/masiraji/CV/blob/main/cv.pdf)")
+}
+```
+
+Updated `r Sys.Date()`
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_contact_info()
+```
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_skill_bars()
+```
+
+
+Research Strength {#Research}
+--------------------------------------------------------------------------------
+Experimental Design, Survey Design, RMarkdown Reports, Data Visualization and Statistical Analysis in R, Reproducibility (Github Version Control), Academic Writing, and R language
+
+Psychometrics {#psychometics}
+--------------------------------------------------------------------------------
+
+Item Analysis (Classical and Modern Item Response Theory), Latent Structure Analysis (Exploratory Factor Analysis, Confirmatory Factor Analysis), Structural Equation Modeling, and Regression.
+
+
+
+Main
+================================================================================
+
+Mushfiqul Anwar Siraji {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("intro") 
+```
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('education')
+```
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
+
+
+
+Data Analysis {data-icon=chart-line}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('data_science')
+```
+
+<!-- These breaks just force a new page so section doesnt get cut off -->
+<br>
+<br>
+<br>
+
+Selected Publications, Posters, and Talks {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('academic_articles')
+```
+
+Manuscript Under Preparation {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+
+CV %<>% print_section('academic_articles_underprep')
+
+```
+
+Training {data-icon=chalkboard}
+--------------------------------------------------------------------------------
+**Psychometrics**  
+- Level B: Advanced Psychometrics (60 Credits)  
+    GPA: 4.00 out of 4.00  
+- Level A: Basic Psychometrics (60 Credits)  
+    GPA: 4.00 out of 4.00  
+
+**Statistics**  
+-Advanced Statistics for Biomedical Science  
+-Basic Statistics for Biomedical Science  
+
+**Academic Writing**  
+- Written and Oral Communication Skills for Biomedical Science  
+- Grant Writing and Fellowship Applications in Psychological Science  
+- Writing Skills for Graduate Students  
+- Writing an Effective Literature Review  
+- Intensive Writing Course for Science Communication  
+
+**Statistical Tool**  
+- Introduction to R  
+- Code Clinic R  
+- Learning the R Tidyverse  
+- R Programming in Data science  
+- SPSS Statistics Essential Training  
+- Excel Essential Training  
+
+References {data-icon=address-card}
+--------------------------------------------------------------------------------
+
+**Shamsul Haque, PhD**  
+Associate Professor,    
+Department of Psychology,  
+Monash University  
+Email: shamsul@monash.edu  
+
+
+**Vineetha Kalavally**,  
+Associate Professor  
+School of Engineering,  
+Monash University  
+Email: vineetha@monash.edu  
+
+
+
+```{r}
+CV %<>% print_links()
+```
+
+
