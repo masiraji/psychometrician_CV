@@ -150,15 +150,24 @@ CV %<>% print_section('academic_articles_underprep')
 
 Training {data-icon=chalkboard}
 --------------------------------------------------------------------------------
-**Psychometrics**  
-- Level B: Advanced Psychometrics (60 Credits)  
-    GPA: 4.00 out of 4.00  
-- Level A: Basic Psychometrics (60 Credits)  
-    GPA: 4.00 out of 4.00  
 
-**Statistics**  
--Advanced Statistics for Biomedical Science  
--Basic Statistics for Biomedical Science  
+
+  
+```{r}
+
+CV %<>% print_section('psychometrics')
+
+```
+
+
+```{r}
+
+CV %<>% print_section('statistics')
+
+```
+
+
+
 
 **Academic Writing**  
 - Written and Oral Communication Skills for Biomedical Science  
@@ -178,18 +187,11 @@ Training {data-icon=chalkboard}
 References {data-icon=address-card}
 --------------------------------------------------------------------------------
 
-**Shamsul Haque, PhD**  
-Associate Professor,    
-Department of Psychology,  
-Monash University  
-Email: shamsul@monash.edu  
+```{r}
 
+CV %<>% print_section('references')
 
-**Vineetha Kalavally**,  
-Associate Professor  
-School of Engineering,  
-Monash University  
-Email: vineetha@monash.edu  
+```
 
 
 
