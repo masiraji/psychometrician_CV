@@ -134,7 +134,7 @@ CV %<>% print_section('data_science')
 <br>
 <br>
 
-Selected Publications, Posters, and Talks {data-icon=book}
+Selected Publications and Talks {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -180,7 +180,7 @@ CV %<>% print_section('statistics')
 - Introduction to R  
 - Code Clinic R  
 - Learning the R Tidyverse  
-- R Programming in Data science  
+- R Programming in Data Science  
 - SPSS Statistics Essential Training  
 - Excel Essential Training  
 
