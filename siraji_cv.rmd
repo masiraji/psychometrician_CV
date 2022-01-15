@@ -54,9 +54,9 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://github.com/masiraji/CV")
+  cat("View this CV online with links at https://masiraji.github.io/psychometrician_CV/")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/masiraji/CV/blob/main/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/masiraji/psychometrician_CV/blob/main/cv.pdf)")
 }
 ```
 
@@ -81,12 +81,12 @@ CV %>% print_skill_bars()
 
 Research Strength {#Research}
 --------------------------------------------------------------------------------
-Experimental Design, Survey Design, RMarkdown Reports, Data Visualization and Statistical Analysis in R, Reproducibility (Github Version Control), Academic Writing, and R language
+Psychometrics, Experimental Design, Survey Design, RMarkdown Reports, Data Visualization and Statistical Analysis in R, Reproducibility (Github Version Control), and Academic Writing.
 
 Psychometrics {#psychometics}
 --------------------------------------------------------------------------------
 
-Item Analysis (Classical and Modern Item Response Theory), Latent Structure Analysis (Exploratory Factor Analysis, Confirmatory Factor Analysis), Structural Equation Modeling, and Regression.
+Item Generation, Item Analysis (Classical and Modern Item Response Theory), Latent Structure Analysis (Exploratory Factor Analysis, Confirmatory Factor Analysis), Structural Equation Modeling, and Regression.
 
 
 
