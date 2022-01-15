@@ -96,6 +96,8 @@ Main
 Mushfiqul Anwar Siraji {#title}
 --------------------------------------------------------------------------------
 
+### Currently searching for a job related to Psychometrics            
+
 ```{r}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block("intro") 
@@ -151,8 +153,6 @@ CV %<>% print_section('academic_articles_underprep')
 Training {data-icon=chalkboard}
 --------------------------------------------------------------------------------
 
-
-  
 ```{r}
 
 CV %<>% print_section('psychometrics')
