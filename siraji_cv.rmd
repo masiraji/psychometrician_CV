@@ -96,7 +96,7 @@ Main
 Mushfiqul Anwar Siraji {#title}
 --------------------------------------------------------------------------------
 
-### Currently searching for a job related to Psychometrics            
+### Currently searching for a job related to Data Science            
 
 ```{r}
 # Note the special double pipe so we modify the CV object in place
@@ -177,12 +177,14 @@ CV %<>% print_section('statistics')
 - Intensive Writing Course for Science Communication  
 
 **Statistical Tool**  
+- Python Data Analysis  
 - Introduction to R  
 - Code Clinic R  
 - Learning the R Tidyverse  
 - R Programming in Data Science  
 - SPSS Statistics Essential Training  
-- Excel Essential Training  
+- Excel Essential Training
+
 
 References {data-icon=address-card}
 --------------------------------------------------------------------------------

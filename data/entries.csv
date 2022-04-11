@@ -1,24 +1,27 @@
 Where in your CV this entry belongs,Main title of the entry,Location the entry occured,Primary institution affiliation for entry,Start date of entry (year),"End year of entry. Set to ""current"" if entry is still ongoing.","Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title ""description_{4,5,..}""",,,A filter variable that is used to decide if entry is in the smaller resume. 
 section,title,loc,institution,start,end,description_1,description_2,description_3,in_resume
-education,"PhD. Candidate, Psychology",Monash University,School of Medicine and Health Sciences,2019,2022,Visual and non-visual effects of light: real-world application,,,TRUE
+education,"PhD. Candidate, Psychology",Monash University,Jeffrey Cheah School of Medicine and Health Sciences,2019,2022,Visual and non-visual effects of light: real-world application,,,TRUE
 education,"MSc., Psychology",University of Dhaka,Department of Psychology,2014,2015,Thesis: Cultural adaptation and psychometric validation of Rotter's I-E scale,Psychometrically validated the Bangla Rotter's Internal-External scale,,TRUE
 education,"B.Sc., Psychology",University of Dhaka,Department of Psychology,2010,2014,Project: An evidence of perception without awareness,,,TRUE
-research_positions,PhD Research Fellow,Monash University,School of Medicine and Health Sciences,2019,2022,Actively designed and conducted experiments involving human participants at the Intelligent Lighting Lab. Developed a psychometric tool to capture different light exposure related behaviors,,,TRUE
+research_positions,PhD Research Fellow,Monash University,Jeffrey Cheah School of Medicine and Health Sciences,2019,2022,Actively designed and conducted experiments involving human participants at the Intelligent Lighting Lab. Developed a psychometric tool to capture different light exposure related behaviors,,,TRUE
 industry_positions,,,,,,,,,FALSE
-academic_articles,Effects of Daytime Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A Systematic Review,Frontiers in Psychology,,,2022,"Authored with Dr. Vineetha Kalavaly, Dr. Alexandre Schaefer and Dr.Shamsul Haque",A systematic review of ipRGCs influenced light responses in the context of alertness and higher cognitive functions,,TRUE
+academic_articles,Effects of Daytime Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A Systematic Review,Frontiers in Psychology,,,2022,"Authored with Dr. Vineetha Kalavally, Dr. Alexandre Schaefer and Dr.Shamsul Haque",A systematic review of ipRGCs influenced light responses in the context of alertness and higher cognitive functions,,TRUE
 academic_articles_underprep,Cultural Adaptation and Psychometric Validation of Rotter's I-E Scale,,,,Manuscript Under Preparation,Authored with Dr. Shamsul Haque,,,TRUE
 academic_articles_underprep,Cultural Adaptation and Psychometric Validation of Five Factor Mindfulness Questionnaire,,,,Manuscript Under Preparation,Authored with Dr. Shamsul Haque,,,TRUE
 academic_articles_underprep,Light Exposure Behavior Assessment (LEBA): Development of a Novel Instrument to Capture Light Exposure-Related Behaviours,,,,Manuscript Under Preparation,"Authored with Rafael Robert Lazar, Dr. Juliette van Duijnhoven, Dr. Luc Schlangen, Dr. Shamsul Haque, Dr. Vineetha Kalavally, Dr. Celine Vetter, Dr. Gena Glickman, Dr. Karin Smolders, & Dr. Manuel Spitschan",,,TRUE
 academic_articles,"Bangla Translation of Comic Book: ""Enlighten Your Body Clock""",,,,2021,Authored with Colline and Dr. Manuel Spistchan,,,TRUE
-data_science,Item generation and Item Analysis,,,,,,,,TRUE
+data_science,Item generation and Item Analysis,,,,,,,,FALSE
+data_science,Systematic Review,,,,,,,,FALSE
+data_science,Classical and Item Response Theory Based Psychometric Analysis,,,,,,,,TRUE
 data_science,Parametric and Non-parametric Statistics,,,,,,,,TRUE
 data_science,R Based Data Analysis,,,,,,,,TRUE
 data_science,Data Visualization,,,,,,,,TRUE
 data_science,Reproducible Manuscripts & GitHub Integration,,,,,,,,TRUE
-academic_articles,Light Exposure Behavior Assessment (LEBA): Development of a Novel Instrument to Capture light Exposure-Related Behaviours,CIE Australia Lighting Research Conference ,,,2022,"Authored with Rafael Robert Lazar, Dr. Juliette van Duijnhoven, Dr. Luc Schlangen, Dr. Shamsul Haque, Dr. Vineetha Kalavally, Dr. Celine Vetter, Dr. Gena Glickman, Dr. Karin Smolders, & Dr. Manuel Spitschan",,,TRUE
-academic_articles,Influence of Daytime Short-wavelength Dominant Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A CIE S026-Based Pilot Study ,CIE Australia Lighting Research Conference ,,,2022,Authored with Dr. Vineetha Kalavaly and Dr.Shamsul Haque,,,TRUE
-psychometrics,Level B: Advanced Psychometrics (60 Credits) ,,Bangladesh Psychometric Society,,,GPA: 4.00 out of 4.00,,,TRUE
-psychometrics,Level A: Basic Psychometrics (60 Credits)  ,,Bangladesh Psychometric Society,,,GPA: 4.00 out of 4.00,,,TRUE
+psychopy,Sustained Attention Task ,,,,,,,,TRUE
+psychopy,Executive Funtion ,,,,,,,,TRUE
+psychopy,Risk Assessment,,,,,,,,TRUE
+Presentations,Light Exposure Behavior Assessment (LEBA): Development of a Novel Instrument to Capture light Exposure-Related Behaviours,CIE Australia Lighting Research Conference ,,,2022,"Authored with Rafael Robert Lazar, Dr. Juliette van Duijnhoven, Dr. Luc Schlangen, Dr. Shamsul Haque, Dr. Vineetha Kalavally, Dr. Celine Vetter, Dr. Gena Glickman, Dr. Karin Smolders, & Dr. Manuel Spitschan",,,TRUE
+Presentations,Influence of Daytime Short-wavelength Dominant Electric Light Exposure on Human Alertness and Higher Cognitive Functions: A CIE S026-Based Pilot Study ,CIE Australia Lighting Research Conference ,,,2022,Authored with Dr. Vineetha Kalavally and Dr.Shamsul Haque,,,TRUE
 statistics,Advanced Statistics for Biomedical Science  ,,,,,,,,TRUE
 statistics,Basic Statistics for Biomedical Science  ,,,,,,,,TRUE
 references,"Shamsul Haque, PhD",,"Associate Professor, Department of Psychology, Monash University  ",,,Email: shamsul@monash.edu  ,,,TRUE

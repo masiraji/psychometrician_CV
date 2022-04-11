@@ -1,7 +1,10 @@
-Id used for finding text block,Contents of text block. Supports markdown formatting.
-loc,text
-intro,"I am a PhD research scholar, currently looking for a job related to psychometrics. During my PhD years, I have received training on psychometrics, especially in Item Response Theory-based analysis. I actively worked on the development, adaptation and psychometric calibration of different psychometric measurement tools.   I am experienced in parametric and nonparametric statistical analysis and R language based psychometric analysis.	  "
-,
-,
-Psychometric_data_analysis,"I am proficient in Item Generation , Item Analysis using Classical Test Theory and Modern Item Response Theory,  Latent Structure Analysis (Exploratory Factor Analysis, Confirmatory Factor Analysis),  Structural Equation Modelling and Regression Analysis."
-R Language,"Data visualization, Parametric & non papamateric statictical Analysis, Reproducible Manuscripts"
+Id used for finding text block,Contents of text block. Supports markdown formatting.,
+loc,text,in_resume
+,,
+intro," I am a PhD research scholar (Psychology) currently looking for a post related to Psychometry. During my PhD years, I gained experience in Classical Test Theory and Item Response Theory based psychometric analysis. I have developed and adapted several psychometric tools. I have experience in PsychoPy,  RShiny, and R language-based statistical analysis and data visualization.",TRUE
+,,
+,,
+RLanguage,"Data visualization, RShiny, Parametric & non papamateric statictical Analysis, Reproducible Manuscripts, RMarkdown",FALSE
+Research,"Psychometrics, Qualitative and Quantitative Research, Experimental Design, Survey Design, Data Visualization and Statistical Analysis in R, Reproducibility (Github Version Control), and Academic Writing.",TRUE
+Psychometrics,"Item Generation, Item Analysis (Classical and Modern Item Response Theory),  Exploratory Factor Analysis, Confirmatory Factor Analysis, Scaling and Equating, Measurement Invariance, Differential Item Functioning and  Structural Equation Modeling.",TRUE
+psychopy,"Psychomotor Vigilance Task, N-back Task, Motor Sequence Task, Balloon Analogue Risk Task, Effort Expenditure for Rewards Task",FALSE
